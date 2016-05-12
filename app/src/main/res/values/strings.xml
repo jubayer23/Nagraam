@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Word Unlimited</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_play">GamePlay</string>
+
+    <string name="lan_eng">English</string>
+    <string name="lan_por">Portuguise</string>
+
+    <string name="setting_eng_title">CONFIGURATION</string>
+    <string name="setting_eng_audiotitle">SOUND</string>
+    <string name="setting_eng_langtitle">LANGUAGE</string>
+    <string name="setting_eng_checkbox">MUTE</string>
+    <string name="setting_por_title">CONFIGURAÇÕES</string>
+    <string name="setting_por_audiotitle">AUDIO</string>
+    <string name="setting_por_langtitle">IDIOMA</string>
+    <string name="setting_por_checkbox">mudo</string>
+
+
+    <string name="gameover_eng_score_title">Score:</string>
+    <string name="gameover_eng_btnplay">PLAY</string>
+    <string name="gameover_eng_bestscore_title">Best Score:</string>
+    <string name="gameover_eng_btnmenu">MENU</string>
+
+    <string name="gameover_por_score_title">Score:</string>
+    <string name="gameover_por_btnplay">JOGAR</string>
+    <string name="gameover_por_bestscore_title">Best Score:</string>
+    <string name="gameover_por_btnmenu">MENU</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_to_upload_this_score">Sign in now to upload this score, save your achievements and share your progress with friends.</string>
+    <string name="signin_other_error">There was an issue with sign in.  Please try again later.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6624835741709918/7350611381</string>
+
+
+</resources>

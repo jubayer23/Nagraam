@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:id="@+id/dialogsetting_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg_rounded"
+        android:paddingBottom="20dp"
+        android:weightSum="4">
+
+
+        <com.fli_alpha_solutions_ltd.word_unlimited.view.MyTextView
+            android:id="@+id/dialogsetting_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:text="CONFIGURAÇÕES"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            app:fontName="BRLNSDB.TTF" />
+
+
+        <com.fli_alpha_solutions_ltd.word_unlimited.view.MyTextView
+            android:id="@+id/dialogsetting_audiotitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialogsetting_title"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:text="AUDIO"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:fontName="BRLNSDB.TTF" />
+
+        <LinearLayout
+            android:id="@+id/checkbox_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialogsetting_audiotitle"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/dialogsetting_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dialogsetting_audiotitle"
+                android:layout_centerHorizontal="true" />
+
+            <com.fli_alpha_solutions_ltd.word_unlimited.view.MyTextView
+                android:id="@+id/dialogsetting_checkbox_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUTE"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:fontName="BRLNSDB.TTF" />
+        </LinearLayout>
+
+
+        <com.fli_alpha_solutions_ltd.word_unlimited.view.MyTextView
+            android:id="@+id/dialogsetting_langtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkbox_layout"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:text="IDIOMA"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:fontName="BRLNSDB.TTF" />
+
+
+        <Spinner
+            android:id="@+id/dialogsetting_spinner"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/dialogsetting_langtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/dropdown_item_background"
+            android:popupBackground="@color/white" />
+
+
+    </RelativeLayout>
+</LinearLayout>
